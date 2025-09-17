@@ -1,4 +1,4 @@
-Docker :_ # -------- Stage 1: Build --------
+# -------- Stage 1: Build --------
 FROM gradle:8.7.0-jdk21 AS builder
 WORKDIR /app
 COPY . .
